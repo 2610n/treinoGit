@@ -1,0 +1,26 @@
+
+para ver os status do que foi modificado no controle de versão 
+comando : git status
+
+para adicionar no controle de versão 
+ comando : git add "nome do arquivo " ou git add . (se caso tiver mais de um arquivo)
+
+
+para salvar a modificação 
+comando : git commit -m "defnir  o nome da modificação "
+
+push
+antes de fazer um push(subir para nuvem)
+tem  criar um repositório no github antes de procegit com o comando (push)
+
+feito o repositório entre nele depois pegue o link dele copie
+
+e no terminal do git digite o comando 
+git remote add origin  link copiado
+
+após tudo isso 
+utilize o comando push para subir para sua nuvem 
+se der algum problema tipo (se pergutar para qul repositório manda esteja atento com comando que aparece com o aviso )geralmente quando manda para nuven e
+o rpositório manda para bransh principal no caso (master)
+
+
