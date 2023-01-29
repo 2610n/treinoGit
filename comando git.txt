@@ -23,4 +23,25 @@ utilize o comando push para subir para sua nuvem
 se der algum problema tipo (se pergutar para qul repositório manda esteja atento com comando que aparece com o aviso )geralmente quando manda para nuven e
 o rpositório manda para bransh principal no caso (master)
 
+comando git reflog (mostr o historico de comit junto com id se caso quiser retorna para um estado anterior)
+
+commit(versão)
+como voltar a uma versão anterior do seu código
+comando: git reset --hard ID do comiit que vc quer voltar;
+
+Branch (caminhos diferente durante o processo de desenvolvimento)
+
+marge quando vc mescla seu código de uma branch secundaria  com o branch (master)
+comando para saber as branch disponívei  : git branch
+comando para criar uma nova branch : git branch nome da branch
+
+para identificar qual a branch que está sendo utilizada basta digitar o comando :git branch  e verificar qual branch esta com cor verde
+
+para mudar de branch basta usar o comando :git checkout e o nome da branch que deseja usar.
+
+quando você cria uma branch nova e quer subir ele para nuvem
+o git pede para vc executar um comando primeiro .(ele tepassa o comando via mensagem do terminal na hora de dar um push)
+
+
+
 
