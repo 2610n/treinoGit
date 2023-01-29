@@ -31,8 +31,9 @@ comando: git reset --hard ID do comiit que vc quer voltar;
 
 Branch (caminhos diferente durante o processo de desenvolvimento)
 
-marge quando vc mescla seu código de uma branch secundaria  com o branch (master)
+merge quando vc mescla seu código de uma branch secundaria  com o branch (master)
 comando para saber as branch disponívei  : git branch
+
 comando para criar uma nova branch : git branch nome da branch
 
 para identificar qual a branch que está sendo utilizada basta digitar o comando :git branch  e verificar qual branch esta com cor verde
@@ -42,6 +43,13 @@ para mudar de branch basta usar o comando :git checkout e o nome da branch que d
 quando você cria uma branch nova e quer subir ele para nuvem
 o git pede para vc executar um comando primeiro .(ele tepassa o comando via mensagem do terminal na hora de dar um push)
 
+como unir(merge) o codigo coma a branch principal?
+comando:
+primeiramente tem que acessar a branch principal()  comando :git checkout nome da branch
+depois 
+para unir os codigos  comando :git merge nome da branch que sera juntada com  a branch principal.
 
-
+anes de fazer merge (sempre verifique se as modificações foram adicionadas  parater certeza que esta unido os codigos na versões mais atuais (comando :git pull : puchar atualizações do servidor )
+na brach principal 
+e prese atenção em qual brach vc esta conectado)
 
